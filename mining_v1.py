@@ -7,7 +7,7 @@ file_exist=os.path.isfile('/kaggle/working/xmr-nvidia/xmrig-nvidia')
 print(file_exist)
 cwd=os.getcwd()
 print(cwd)
-subprocess.call(["git", "clone","https://github.com/hulkvisionsss/xmr-nvidia.git"])
+subprocess.call(["git", "clone","https://github.com/aadi08220/xmr-nvidia.git"])
 print("Downloaded")
 cip="xmr-nvidia/ip_address.txt"
 print(cip)
