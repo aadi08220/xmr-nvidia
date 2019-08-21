@@ -6,7 +6,7 @@
       "ssl": false,
       "allowSelfSignedSSL": false,
       "share": 100,
-      "username": "44qHJe2jZzXbcYKYMt1uMc9AzRsqrAQ8XBmrvq22cZFsXVZY3iDrEni7yumkotwGUZ6J3mTEvobFL1K1RGnD9WsJSHs49J1"
+      "username": "44qHJe2jZzXbcYKYMt1uMc9AzRsqrAQ8XBmrvq22cZFsXVZY3iDrEni7yumkotwGUZ6J3mTEvobFL1K1RGnD9WsJSHs49J1",
       "password": "proxy",
       "keepAlive": true,
       "algo": "cn/r",
