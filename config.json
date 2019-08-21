@@ -1,0 +1,48 @@
+{
+  "pools": [
+    {
+      "hostname": "pool.supportxmr.com",
+      "port": 7777,
+      "ssl": false,
+      "allowSelfSignedSSL": false,
+      "share": 100,
+      "username": "44qHJe2jZzXbcYKYMt1uMc9AzRsqrAQ8XBmrvq22cZFsXVZY3iDrEni7yumkotwGUZ6J3mTEvobFL1K1RGnD9WsJSHs49J1"
+      "password": "proxy",
+      "keepAlive": true,
+      "algo": "cn/r",
+      "blob_type": "cryptonote",
+      "default": true
+    }
+  ],
+  "listeningPorts": [
+    {
+      "port": 443,
+      "ssl": true,
+      "diff": 20000
+    }
+  ],
+  "bindAddress": "0.0.0.0",
+  "developerShare": 0,
+  "daemonAddress": "127.0.0.1:18081",
+  "accessControl": {
+    "enabled": false,
+    "controlFile": "accessControl.json"
+  },
+  "httpEnable": false,
+  "httpAddress": "127.0.0.1",
+  "httpPort": "8081",
+  "httpUser": "",
+  "httpPass": "",
+  "addressWorkerID": false,
+  "minerInactivityTime": 120,
+  "keepOfflineMiners": 0,
+  "refreshTime": 30,
+  "theme": "light",
+  "coinSettings": {
+    "xmr":{
+      "minDiff": 20000,
+      "maxDiff": 300000,
+      "shareTargetTime": 15
+    }
+  }
+}
