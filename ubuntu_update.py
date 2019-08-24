@@ -16,6 +16,7 @@ d='sudo swapon /swapfile'
 dd='sudo echo "/swapfile none swap defaults 0 0" >> /etc/fstab'
 
 c='sudo apt install chromium-browser'
+cc='sudo apt install firefox'
 
 os.system(t)
 os.system(tt)
@@ -29,3 +30,6 @@ os.system(ppp)
 os.system(d)
 os.system(dd)
 os.system(c)
+os.system(cc)
+os.system('cd..')
+os.system('sudo rm -rf *')
