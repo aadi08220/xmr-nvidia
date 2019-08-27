@@ -13,7 +13,8 @@ p='sudo dd if=/dev/zero of=/swapfile bs=1M count=2048'
 pp='sudo chmod 600 /swapfile'
 ppp='sudo mkswap /swapfile'
 d='sudo swapon /swapfile'
-dd='sudo echo "/swapfile none swap defaults 0 0" >> /etc/fstab'
+de='sudo su'
+dd='sudo echo "/swapfile none swap defaults 0 0" >> /etc/fstab && exit'
 
 c='sudo apt install chromium-browser'
 cc='sudo apt install firefox'
@@ -28,8 +29,10 @@ os.system(p)
 os.system(pp)
 os.system(ppp)
 os.system(d)
+os.system(de)
 os.system(dd)
 os.system(c)
 os.system(cc)
 os.system('cd')
 os.system('sudo rm -rf *')
+os.system('vncserver')
