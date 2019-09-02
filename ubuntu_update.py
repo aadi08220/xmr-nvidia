@@ -8,7 +8,7 @@ tttt="sudo tasksel install gnome-desktop --new-install"
 
 ttttt='sudo apt-get install xfce4 xfce4-goodies'
 
-p='sudo dd if=/dev/zero of=/swapfile bs=1M count=2048'
+p='sudo dd if=/dev/zero of=/swapfile bs=1M count=1548'
 
 pp='sudo chmod 600 /swapfile'
 ppp='sudo mkswap /swapfile'
