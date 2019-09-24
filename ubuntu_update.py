@@ -14,7 +14,7 @@ pp='sudo chmod 600 /swapfile'
 ppp='sudo mkswap /swapfile'
 d='sudo swapon /swapfile'
 de='sudo reboot'
-dd='echo '/swapfile none swap sw 0 0' | sudo tee -a /etc/fstab'
+
 
 c='sudo apt install -y chromium-browser'
 cc='sudo apt install -y firefox'
@@ -30,7 +30,7 @@ os.system(pp)
 os.system(ppp)
 os.system(d)
 
-os.system(dd)
+
 os.system(c)
 os.system(cc)
 os.system('vncserver -geometry 1440x900')
