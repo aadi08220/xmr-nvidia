@@ -13,7 +13,7 @@ p='sudo dd if=/dev/zero of=/swapfile bs=1M count=1548'
 pp='sudo chmod 600 /swapfile'
 ppp='sudo mkswap /swapfile'
 d='sudo swapon /swapfile'
-de='sudo reboot'
+de='free -h'
 
 
 c='sudo apt install -y chromium-browser'
